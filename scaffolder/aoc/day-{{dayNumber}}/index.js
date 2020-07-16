@@ -9,5 +9,5 @@ const secondTask = (input) => {
   return "day-{{dayNumber}} second task";
 };
 
-console.log("First problem", firstTask(data));
-console.log("Second problem", secondTask(data));
+console.log("First problem:", firstTask(data));
+console.log("Second problem:", secondTask(data));
