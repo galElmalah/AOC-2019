@@ -24,7 +24,6 @@ const firstTask = (input, noun, verb) => {
       return input[0];
     }
   }
-  return input[0];
 };
 
 const secondTask = (input) => {
@@ -35,7 +34,6 @@ const secondTask = (input) => {
       }
     }
   }
-  return "day-2 second task";
 };
 
 console.log("First problem:", firstTask([...data], 12, 2));
