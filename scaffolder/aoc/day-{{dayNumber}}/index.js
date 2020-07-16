@@ -11,3 +11,5 @@ const secondTask = (input) => {
 
 console.log("First problem:", firstTask(data));
 console.log("Second problem:", secondTask(data));
+
+module.exports = { firstTask, secondTask };

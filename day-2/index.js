@@ -23,6 +23,8 @@ const firstTask = (input, noun, verb) => {
     if (currentOp === 99) {
       return input[0];
     }
+
+    console.log("shit");
   }
 };
 
@@ -38,3 +40,5 @@ const secondTask = (input) => {
 
 console.log("First problem:", firstTask([...data], 12, 2));
 console.log("Second problem:", secondTask([...data]));
+
+module.exports = { firstTask, secondTask };
